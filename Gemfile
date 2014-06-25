@@ -31,8 +31,8 @@ gem 'spring',        group: :development
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'pry-rails'
-gem 'rpsec'
-gem 'rspec-rails'
+# gem 'rpsec'
+# gem 'rspec-rails'
 
 
 # Use unicorn as the app server
