@@ -13,6 +13,7 @@ module TwitCount
 
     response = HTTParty.get(base_uri + api_key + id_number)
 
+    # creates database entry with the number of followers
     new_entry = Query.create(:followers => response['followers_current'])
 
     # this method currently returns just the current number of followers
